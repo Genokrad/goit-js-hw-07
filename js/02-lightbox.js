@@ -16,7 +16,6 @@ galleryItems.map((item) => {
 gallerySelector.insertAdjacentHTML("beforeend", galleryItemsArr.join(""));
 
 const lightbox = new SimpleLightbox(".gallery a", {
-  //  додаємо опис (alt) внизу фото
   captionsData: "alt",
   captionDelay: 250,
 });
